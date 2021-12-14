@@ -1,0 +1,32 @@
+.cabecalho-principal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.cabecalho-principal img {
+    width: 100%;
+}
+
+.menu-principal {
+    width: 100%;
+     
+}
+.menu-principal ul {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    margin: .6rem;   
+}
+
+.menu-principal ul li {
+    
+    padding: 5px 30px;
+    margin: 5px 0;
+    border: 1px solid black;
+}
+
+.menu-principal ul li a {
+    text-decoration: none;
+    color: gray;
+}
