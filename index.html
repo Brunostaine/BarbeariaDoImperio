@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia do Império</title>
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
     
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
 
     <header class="cabecalho">
-        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
-        <img src="Imagens/logo-barbearia.png" alt="Logotipo da HZC" class="cabecalho__logo">
+        <button class="cabecalho__menu" aria-label="Menu"></button>
+        <h1 class="cabecalho__titulo">Barbearia do Império</h1>
+        <!-- <img src="Imagens/logo-barbearia.png" alt="Logotipo da HZC" class="cabecalho__logo"> -->
         <div></div>
     </header>
     <nav class="menu-lateral"> 
@@ -29,7 +32,18 @@
         <a class="menu-lateral__link menu-lateral__link--camisas " href="#">Agendar Corte</a>
     </nav>
 
-    
+    <main class="principal">
+        <section class="destaque-sessao">
+            <img src="Imagens/imagem-destaque.jpg" alt="Imagem de destaque" class="destaque-img">
+        </section>
+        <section class="quemsomos-sessao">
+            <h2 class="quemsomos-titulo">Quem somos</h2>
+            <img src="Imagens/tesoura1.png" alt="Icone do quem somos" class="quemsomos-img">
+            <p class="quemsomos-paragrafo">Somos uma barbearia que foi criada no ano de 2000 e temos como referência os cortes de diversos tipos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihilo quibusdam.</p>
+        </section>
+
+    </main>
     <script src="index.js"></script>
+    
 </body>
 </html>

@@ -18,10 +18,20 @@ body {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
 }
 
-.cabecalho__menu i::before{
-    content: "";
-    font-size: 24px;
+.cabecalho__titulo {
+    width: 50%;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.8rem;
 }
+
+/* .cabecalho__menu i::before{
+    content: '\f0c9';
+    font-size: 24px;
+} */
 
 .cabecalho__logo {
     width: 60px;
