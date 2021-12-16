@@ -1,0 +1,43 @@
+body {
+    width:100vw;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+    justify-content: center;
+
+	width: 80%;	
+	margin: 16px auto;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.produto-descricao {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.produtos span {
+    font-size: 0.8rem;
+}
+
+.produto-preco {
+    font-size: 1.2rem;
+    font-weight: 600;
+}

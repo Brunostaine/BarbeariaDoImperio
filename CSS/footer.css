@@ -1,0 +1,19 @@
+/* FOTTER */
+footer {
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+    background: black;
+}
+
+footer h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+footer p {
+    text-align: center;
+    font-size: .8rem;
+}
