@@ -9,30 +9,101 @@
     height: 200px;
 }
 
-/*SESSÃO QUEM SOMOS*/
+/*SESSÃO SOBRE*/
 
-.quemsomos-sessao {
+.sobre-sessao {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 16px;
     align-items: center;
 }
 
-.quemsomos-titulo {
+.sobre-titulo {
     grid-column: span 2;
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
 }
 
-.quemsomos-img {
+.sobre-img {
     width: 60px;
     background-color: blanchedalmond;
     border-radius: 10px;
     align-items: center;
 }
 
-.quemsomos-paragrafo {
+.sobre-paragrafo {
     text-align: justify;
     padding: 16px;
 }
+
+.missao-paragrafo {
+    grid-column: span 2;
+}
+
+.missao-paragrafo strong {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.oferecemos-paragrafo {
+    grid-column: span 2;
+}
+
+/* SESSÃO DO MAPA DA LOJA */
+
+.mapa-titulo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mapa-paragrafo {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.mapa-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* BENEFICIOS DA BARBEARIA */
+
+beneficios, .titulo-principal {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.itens:before {
+	content: "🟊";
+}
+
+.lista-beneficios {
+    text-align: center;
+}
+
+.lista-beneficios li {
+    padding: 5px;
+}
+
+.video {
+    margin: 16px 0;
+}
+
+/* FOTTER */
+
+footer h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+footer p {
+    text-align: center;
+    font-size: .8rem;
+}
+
