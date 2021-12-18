@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos Barbearia do Império</title>
+
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
 </head>
 <body>
+
+    <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"></button>
+        <h1 class="cabecalho__titulo">Barbearia do Império</h1>
+        <!-- <img src="Imagens/logo-barbearia.png" alt="Logotipo da HZC" class="cabecalho__logo"> -->
+        <div></div>
+    </header>
+    <nav class="menu-lateral"> 
+        <img class="menu-lateral__logo" src="Imagens/logo-barbearia.png" alt="Logotipo da Barbearia">
+        <a class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo" href="index.html">Home</a>
+        <a class="menu-lateral__link menu-lateral__link--videos " href="serviços.html">Serviços</a>
+        <a class="menu-lateral__link menu-lateral__link--picos " href="produtos.html">Produtos</a>
+        <a class="menu-lateral__link menu-lateral__link--integrantes " href="cursos.html">Cursos</a>
+        <a class="menu-lateral__link menu-lateral__link--camisas " href="contato.html">Agendar Corte</a>
+    </nav>
+
+    <footer class="rodape">
+        <h3>Barbearia do Império</h3>
+        <p>CNPJ - 12.345.678/0001-90</p>
+        <p class="endereco"> Codomínio Império dos Nobres - lt 001</p>
+        <p class="copyright">&copy; Barbearia do Império - 2021</p>
+    </footer>
+    <script src="index.js"></script>
     
 </body>
 </html>
