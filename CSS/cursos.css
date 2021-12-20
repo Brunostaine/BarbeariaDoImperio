@@ -40,8 +40,16 @@
     margin: 0 auto;
 }
 
-.curso-butao {
-    width: 10rem;
-    margin: 16px auto;  
+.butao-whatsapp {
+    font-size: 1.2rem;
+    width: 15rem;
+    margin: 16px auto;
+    border: 1px solid rgb(221, 221, 221);
+    color: white;
+    text-decoration: none;
+    text-align: center;
     padding: 8px;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    
 }
