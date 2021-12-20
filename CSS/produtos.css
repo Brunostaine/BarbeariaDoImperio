@@ -1,0 +1,60 @@
+
+
+.principal-produtos {
+    display: grid;  
+    
+}
+
+.produtos {
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 16px;   
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.produtos-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(5, 196, 5);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.produtos-texto {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.produto-item {
+    display: grid;
+    gap: 8px;
+    text-align: center;
+}
+
+.produto-item--imagem {
+    width: 100%; 
+}
+
+.produto-item--descricao {
+    font-size: 1.2rem;
+
+}
+
+.produto-item--preco {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.produto-item--butao {
+    padding: 8px 8px;
+    margin: 0 auto;
+    width: 150px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(88, 86, 86);
+    
+}
