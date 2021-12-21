@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'icones';
-    src: url(../Fontes/font/icones.ttf);
+    src: url(../font/icomoon.ttf);
 } 
 
 body {
     background-color: #141516;
     color: #ffffff;
-    font-family: 'Open sans', "icones", sans-serif;
+    font-family: 'Open sans', 'icones', sans-serif;
 }
 
 .cabecalho {
@@ -28,10 +28,15 @@ body {
     line-height: 1.8rem;
 }
 
-/* .cabecalho__menu i::before{
-    content: '\f0c9';
-    font-size: 24px;
-} */
+
+
+
+.cabecalho__menu::before {
+    content: "\e9bd";
+    color: #fff; 
+    font-size: 1.5rem;
+}
+
 
 .cabecalho__logo {
     width: 60px;
@@ -86,23 +91,20 @@ body {
     content: "\e902";
 }
 
-.menu-lateral__link--videos::before {
-    content: "\e90e";    
+.menu-lateral__link--servicos::before {
+    content: "\e9ae";   
 }
 
-.menu-lateral__link--picos::before {
-    content: "\e909";    
+.menu-lateral__link--produtos::before {
+    content: "\e900"; 
 }
 
-.menu-lateral__link--integrantes::before {
-    content: "\e903";    
+.menu-lateral__link--cursos::before {
+    content: "\e935";   
 }
 
-.menu-lateral__link--camisas::before {
-    content: "\e900";   
+.menu-lateral__link--agendar::before {
+    content: "\e958";  
 }
 
-.menu-lateral__link--pinturas::before {
-    content: "\e90a";    
-}
 

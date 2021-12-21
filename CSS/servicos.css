@@ -1,10 +1,21 @@
-.produtos {
+.servicos {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;   
+    flex-direction: column;  
+    
 }
 
-.produtos li {
+.servicos-titulo {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin: 16px;
+    color: rgb(231 228 0);
+    display: block;
+}
+
+.servicos li {
 	display: inline-block;
 	text-align: center;
     justify-content: center;
@@ -13,26 +24,27 @@
 	margin: 16px auto;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 2px solid #fff;
 	border-radius: 10px;
+
 }
 
-.produtos h2 {
+.servicos h2 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.produto-descricao {
+.servico-descricao {
     font-size: 1rem;
     margin-bottom: 10px;
 }
 
-.produtos span {
+.servicos span {
     font-size: 0.8rem;
 }
 
-.produto-preco {
+.servico-preco {
     font-size: 1.2rem;
     font-weight: 600;
 }
