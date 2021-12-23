@@ -1,7 +1,32 @@
 /* FOTTER */
+.midias-sociais {
+    display: flex;
+    justify-content: space-around;
+}
+
+.midias { 
+    
+    margin-bottom: 64px;
+}
+
+.whatsapp::before {
+    content: "\ea93";
+}
+
+.instagram::before {
+    content: "\ea92";
+}
+
+.facebook::before {
+    content: "\ea90";
+}
+
 footer {
-    display: grid;
-    gap: 16px;
+    /* display: grid;
+    gap: 8px; */
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
     padding: 16px;
     background: black;
 }
@@ -10,10 +35,13 @@ footer h3 {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
-footer p {
+footer p {    
     text-align: center;
+    line-height: 1rem;
     font-size: .8rem;
+    margin: 0 auto;  
 }
+
