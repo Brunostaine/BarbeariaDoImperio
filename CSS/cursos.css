@@ -38,6 +38,8 @@
 .curso-imagem {
     width: 15rem;
     margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #ffffff98;
 }
 
 .butao-whatsapp {

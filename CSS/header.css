@@ -6,6 +6,7 @@
 body {
     background-color: #141516;
     color: #ffffff;
+    font-family: 'icones';
 }
 
 .cabecalho {
@@ -26,9 +27,6 @@ body {
     text-transform: uppercase;
     line-height: 1.8rem;
 }
-
-
-
 
 .cabecalho__menu::before {
     content: "\e9bd";
