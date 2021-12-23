@@ -11,7 +11,7 @@
     font-weight: 700;
     text-align: center;
     margin: 16px;
-    color: rgb(231 228 0);
+    color: #CCB031;
     display: block;
 }
 
@@ -30,9 +30,10 @@
 }
 
 .servicos h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .servico-descricao {
