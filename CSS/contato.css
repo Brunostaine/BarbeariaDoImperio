@@ -2,9 +2,19 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
+
     padding: 8px;
     margin: 0 auto;
+    
+
     box-sizing: border-box;
+}
+
+.img-rodape {
+    width: 80%;
+    margin: 8px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
 }
 
 .mapa-titulo {
@@ -32,4 +42,5 @@
 .mapa-paragrafo {
     box-sizing: border-box;
     margin: 16px;
+    text-align: center;
 }
