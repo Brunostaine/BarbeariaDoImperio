@@ -4,16 +4,16 @@
 } 
 
 body {
-    background-color: #141516;
+    background-color: #262425;
     color: #ffffff;
-    font-family: 'icones';
+    font-family: 'icones', 'Montserrat';
 }
 
 .cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #261f1f;
+    background-color: #262425;
     padding: 8px 16px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
 }
@@ -41,7 +41,7 @@ body {
 
 .menu-lateral {
     display: flex;
-    background-color: #261f1f;
+    background-color: #262425;
     flex-direction: column;
     width: 75vw;
     height: 100vh;
