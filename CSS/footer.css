@@ -54,3 +54,16 @@ footer p {
     margin: 0 auto;  
 }
 
+@media screen and (min-width: 600px) {
+    .midias-sociais {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 32px;
+    }
+    
+    .midias { 
+        margin-right: 16px;
+    }
+
+}
+

@@ -104,4 +104,40 @@ body {
     content: "\e958";  
 }
 
+@media screen and (min-width: 600px) {
+
+    .cabecalho {
+        padding: 0;
+        
+    }
+    body {
+        width: 100vw;   
+    }
+    .cabecalho__menu::before {
+        display: none;
+    }
+
+    .menu-lateral {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        position: relative;
+        left: 0vw;  
+        margin: 0;
+    }
+
+    .cabecalho__logo {
+        display: none;
+    }
+    
+    .menu-lateral__link--ativo {
+        border-left: none;
+    }
+
+    .menu-lateral__link::before {
+        display: none;
+    }
+}
+
 
