@@ -29,6 +29,11 @@
 
 }
 
+.servicos li:hover {
+	background: var(--butao-background);
+
+}
+
 .servicos h2 {
     font-size: 1.4rem;
     font-weight: 700;
@@ -48,4 +53,11 @@
 .servico-preco {
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+@media screen and (min-width: 600px) {
+    .servicos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
