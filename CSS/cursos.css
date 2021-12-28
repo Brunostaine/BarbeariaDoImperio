@@ -55,3 +55,34 @@
     line-height: 1.5rem;
     
 }
+
+.butao-whatsapp:hover {
+    background: rgba(255, 255, 255, 0.068);
+    
+}
+
+@media screen and (min-width: 600px) {
+    .video-cursos {
+        width: 800px;
+        height: 400px;
+
+        display: block;
+        margin: 0 auto;
+    }
+
+    .curso-imagem {
+        width: 30rem;
+        
+    }
+
+    .curso-titulo {
+        margin-bottom: 32px;
+    }
+
+    .curso-paragrafo {
+        width: 30rem;
+        margin: 16px auto;
+        
+    }
+
+}
