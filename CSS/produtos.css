@@ -56,3 +56,31 @@
     color: rgb(88, 86, 86);
     
 }
+
+.produto-item--butao:hover {
+    color: white;
+    background: rgb(1, 202, 18);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+
+    .produtos-texto {
+        
+        margin-bottom: 64px;
+    }
+
+    .produtos-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+    .produto-item {
+        width: 250px;
+    }
+
+    .produto-item--imagem {
+        border-radius: 10px;
+    }
+
+    
+}
