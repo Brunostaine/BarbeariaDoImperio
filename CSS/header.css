@@ -69,8 +69,13 @@ body {
     align-items: center;
 }
 
+.menu-lateral__link:hover {
+    height: 64px;
+    color: white;
+    
+}
+
 .menu-lateral__link--ativo {
-    color: #ffffff;
     padding-left: 56px;
     border-left: 8px solid #ffffff;
 }
@@ -105,14 +110,11 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-
     .cabecalho {
         padding: 0;
         
     }
-    body {
-        width: 100vw;   
-    }
+
     .cabecalho__menu::before {
         display: none;
     }
