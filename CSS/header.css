@@ -6,7 +6,7 @@
 body {
     background-color: #262425;
     color: #ffffff;
-    font-family: 'icones', 'Montserrat';
+    font-family: 'icones';
 }
 
 .cabecalho {
@@ -69,6 +69,8 @@ body {
     padding-left: 64px;
     display: flex;
     align-items: center;
+    text-align: center;
+    
 }
 
 .menu-lateral__link:hover {
@@ -111,10 +113,9 @@ body {
     content: "\e958";  
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 655px) {
     .cabecalho {
-        padding: 0;
-        
+        padding: 0;   
     }
 
     .cabecalho__menu::before {
@@ -131,6 +132,12 @@ body {
         margin: 0;
     }
 
+    .carousel {
+        display: flex;
+        margin: 0 auto;
+        width: 600px;
+    }
+
     .cabecalho__logo {
         display: none;
     }
@@ -143,5 +150,6 @@ body {
         display: none;
     }
 }
+
 
 

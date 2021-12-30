@@ -6,6 +6,10 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.principal {
+    box-sizing: border-box;
+}
 .midias-sociais {
     display: flex;
     justify-content: space-around;
@@ -54,7 +58,7 @@ footer p {
     margin: 0 auto;  
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 655px) {
     .midias-sociais {
         display: flex;
         justify-content: flex-end;

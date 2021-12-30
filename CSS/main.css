@@ -2,6 +2,7 @@
     display: grid;
     gap: 16px;
     padding: 16px;
+    box-sizing: border-box;
     
 }
 .carousel {
@@ -145,7 +146,7 @@ beneficios, .titulo-principal {
     height: 100%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 655px) {
     .mapa-container {
         width: 80%;
         height: 250px;
