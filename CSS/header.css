@@ -49,11 +49,13 @@ body {
     position: absolute;
     left: -100vw;
     transition: .25s;
+    
 }
 
 .menu-lateral--ativo {
     left: 0;
     transition: .25s;
+    z-index: 1;
 }
 .menu-lateral__logo {
     align-self: center;
