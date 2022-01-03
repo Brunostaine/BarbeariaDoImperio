@@ -52,7 +52,7 @@
     font-weight: 600;
 }
 
-@media screen and (min-width: 655px) {
+@media screen and (min-width: 678px) {
     .servicos {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -64,7 +64,7 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 992px) {
     .servicos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

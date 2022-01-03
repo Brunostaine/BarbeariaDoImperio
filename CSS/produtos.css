@@ -73,7 +73,7 @@
 
     .produtos-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
     }
     .produto-item {
         width: 250px;
@@ -81,7 +81,19 @@
 
     .produto-item--imagem {
         border-radius: 10px;
-    }
+    }  
+}
 
-    
+@media screen and (min-width: 900px) {
+    .produtos-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .produtos-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
