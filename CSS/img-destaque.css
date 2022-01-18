@@ -1,0 +1,4 @@
+.imagem-destaque {
+    width: 100%;
+    max-height: calc(100vh - 50px);
+}
