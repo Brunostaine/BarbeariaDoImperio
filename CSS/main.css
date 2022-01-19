@@ -157,6 +157,7 @@ beneficios, .titulo-principal {
     height: 100%;
 }
 
+
 #link__topo {
     text-decoration: none;
     color: white;
@@ -166,12 +167,14 @@ beneficios, .titulo-principal {
     right: 10px;
     bottom: 10px;
     box-shadow: 0 0 5px rgba(122, 120, 120, 0.781);
-    border-radius: 50%;
-    
-    
+    border-radius: 50%;  
 }
 
-
+@media screen and (max-width: 765px) {
+    #link__topo {
+        display: none;
+    }
+}
 
 @media screen and (min-width: 655px) {
     .mapa-container {
@@ -188,9 +191,7 @@ beneficios, .titulo-principal {
     .sobre-sessao {
         width: 80%;
         margin: 0 auto;
-    }
+    } 
 }
-
-
 
 
