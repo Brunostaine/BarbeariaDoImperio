@@ -2,6 +2,8 @@
     --cor-de-fundo-body: #125485;
     --cor-letra-padrao: #ffffff;
 
-    --butao-background: rgb(104, 2, 2);
+    --butao-background: rgba(219, 70, 70, 0.541);
+
+    --font-textos: 'Montserrat';
     
 }

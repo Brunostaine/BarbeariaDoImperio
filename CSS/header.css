@@ -7,6 +7,7 @@ body {
     background-color: #262425;
     color: #ffffff;
     font-family: 'icones';
+    font-family: var(--font-textos);
 }
 
 .cabecalho {
@@ -16,6 +17,7 @@ body {
     background-color: #262425;
     padding: 8px 16px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
+    
 }
 
 .cabecalho__titulo {
@@ -35,7 +37,7 @@ body {
 }
 
 
-.cabecalho__logo {
+.cabecalho__logo { /**/
     width: 60px;
 }
 
@@ -43,6 +45,7 @@ body {
     display: flex;
     background-color: #262425;
     flex-direction: column;
+    font-family: var(--font-textos);
     width: 75vw;
     height: 100vh;
 
@@ -70,12 +73,14 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    transition: .5s;
     
 }
 
 .menu-lateral__link:hover {
     height: 64px;
     color: white;
+    text-decoration: none;
     
 }
 

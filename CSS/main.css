@@ -6,13 +6,13 @@
     
 }
 .titulo-destaques {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     margin-top: 32px;
     margin-bottom: 32px;
     display: flex;
     justify-content: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .carousel {
@@ -156,6 +156,22 @@ beneficios, .titulo-principal {
     width: 100%;
     height: 100%;
 }
+
+#link__topo {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(182, 3, 107);
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 0 0 5px rgba(122, 120, 120, 0.781);
+    border-radius: 50%;
+    
+    
+}
+
+
 
 @media screen and (min-width: 655px) {
     .mapa-container {
