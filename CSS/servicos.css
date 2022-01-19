@@ -22,7 +22,7 @@
 	text-align: center;
     justify-content: center;
 
-	width: 80%;	
+	width: 400px;	
 	margin: 16px auto;
 	padding: 30px 20px;
 	box-sizing: border-box;
@@ -60,6 +60,7 @@
 
     .servicos li:hover {
         background: var(--butao-background);
+        transition: .6s;
     
     }
 }
