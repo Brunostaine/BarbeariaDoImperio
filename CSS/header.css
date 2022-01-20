@@ -6,8 +6,7 @@
 body {
     background-color: #262425;
     color: #ffffff;
-    font-family: 'icones';
-    font-family: var(--font-textos);
+    font-family: 'icones', var(--font-textos);
 }
 
 .cabecalho {
@@ -37,7 +36,7 @@ body {
 }
 
 
-.cabecalho__logo { /**/
+.cabecalho__logo {
     width: 60px;
 }
 
@@ -80,8 +79,7 @@ body {
 .menu-lateral__link:hover {
     height: 64px;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 .menu-lateral__link--ativo {
