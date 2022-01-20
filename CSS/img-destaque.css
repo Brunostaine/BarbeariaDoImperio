@@ -2,3 +2,28 @@
     width: 100%;
     max-height: calc(100vh - 50px);
 }
+
+.barbearia-banner {
+	color: #FFF;
+	background-color: rgba(59, 47, 47, 0.5);
+	padding: 20px;
+	width: 50%;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s;
+    line-height: 25px;
+}
+
+.banner-descricao {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 765px){
+    .barbearia-banner {
+        display: none;
+    }
+}
+
