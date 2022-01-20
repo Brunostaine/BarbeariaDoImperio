@@ -168,12 +168,20 @@ beneficios, .titulo-principal {
     bottom: 10px;
     box-shadow: 0 0 5px rgba(122, 120, 120, 0.781);
     border-radius: 50%;  
+    
+}
+
+html {
+    scroll-behavior:smooth;
+    
 }
 
 @media screen and (max-width: 765px) {
     #link__init {
         display: none;
     }
+
+    
 }
 
 @media screen and (min-width: 655px) {

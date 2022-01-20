@@ -41,6 +41,8 @@
     justify-content: space-evenly; 
     transition: .5s; 
     width: 240px; 
+    margin: auto;
+    border-radius: 10px;
 }
 
 .produto-item--imagem:hover {
@@ -72,7 +74,9 @@
     color: rgb(88, 86, 86);
     margin: 0 auto;
     margin-bottom: 32px;
-    padding: 1rem;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: .6s;
     width: 12rem;
     
