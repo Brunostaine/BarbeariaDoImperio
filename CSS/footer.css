@@ -5,6 +5,14 @@
 
 .midias { 
     margin-bottom: 64px;
+    transition: .6s;
+}
+
+
+.midias:hover {
+    color: rgb(122, 115, 115);
+    text-decoration: none;
+
 }
 
 .whatsapp::before {
@@ -55,6 +63,5 @@ footer p {
     .midias { 
         margin-right: 16px;
     }
-
 }
 

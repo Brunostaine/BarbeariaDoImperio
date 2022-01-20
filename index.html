@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     
     <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/variaveis.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/main.css">
@@ -22,20 +23,19 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <!-- JavaScript -->
 
-    <script src="assets/jquery.js" defer></script>
-    <script src="assets/bootstrap/css/bootstrap.min.css" defer></script>
-    <script src="index.js" defer></script>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+        <script src="index.js" defer></script>
 </head>
 
 <body>
 
-    <header class="cabecalho" id="link__topo">
-        
+      <header class="cabecalho">
+            
         <button class="cabecalho__menu"></button>
         <!-- <h1 class="cabecalho__titulo">Barbearia do Império</h1> -->
         <img src="Imagens/logo-barbearia.jpg" alt="Logotipo da HZC" class="cabecalho__logo">
@@ -45,8 +45,10 @@
     </header>
 
     <nav class="menu-lateral"> 
-        <img class="menu-lateral__logo" src="Imagens/logo-barbearia.jpg" alt="Logotipo da Barbearia">
-        <a class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo" href="index.html">Home</a>
+        <img class="menu-lateral__logo" src="Imagens/logo-barbearia.jpg"
+         alt="Logotipo da Barbearia">
+        <a class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo"
+         href="index.html">Home</a>
         <a class="menu-lateral__link menu-lateral__link--servicos " href="serviços.html">Serviços</a>
         <a class="menu-lateral__link menu-lateral__link--produtos " href="produtos.html">Produtos</a>
         <a class="menu-lateral__link menu-lateral__link--cursos " href="cursos.html">Cursos</a>
@@ -179,7 +181,7 @@
             <a  class=" midias whatsapp" href="https://api.whatsapp.com/send?phone=5561999687967&text=Olá,%20gostaria%20de%20agendar%20um%20horário.%20Pode%20agendar%20pra%20mim?" target="_blank"></a>
             <a  class=" midias instagram" href="#"></a>
             <a  class=" midias facebook" href="#"></a>
-            <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+            
         </section>
         <h3>Barbearia do Império</h3>
         <p>CNPJ - 12.345.678/0001-90</p>
@@ -187,7 +189,5 @@
         <p class="copyright">&copy; Barbearia do Império - 2021</p>
     </footer>
 
-    
-    
 </body>
 </html>
