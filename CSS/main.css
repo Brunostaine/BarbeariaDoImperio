@@ -17,8 +17,7 @@
 
 .carousel {
     position: relative;
-    margin-bottom: 32px;
-    
+    margin-bottom: 32px;   
 }
 .slide {
     z-index: 0;
