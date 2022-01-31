@@ -24,6 +24,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     
 
     <!-- JavaScript -->
@@ -36,28 +38,31 @@
 
 <body>
 
-      <header class="cabecalho">
-            
-        <button class="cabecalho__menu"></button>
-        <!-- <h1 class="cabecalho__titulo">Barbearia do Império</h1> -->
-        <img src="Imagens/logo-barbearia.jpg" alt="Logotipo da HZC" class="cabecalho__logo">
-        <div></div> 
-        <!-- A div esta segurando meu titulo no meio da página -->
-
-
+    <div class="container-topo">
+        <header class="cabecalho">
         
-    </header>
-
-    <nav class="menu-lateral"> 
-        <img class="menu-lateral__logo" src="Imagens/logo-barbearia.jpg"
-         alt="Logotipo da Barbearia">
-        <a class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo"
-         href="index.html">Home</a>
-        <a class="menu-lateral__link menu-lateral__link--servicos " href="serviços.html">Serviços</a>
-        <a class="menu-lateral__link menu-lateral__link--produtos " href="produtos.html">Produtos</a>
-        <a class="menu-lateral__link menu-lateral__link--cursos " href="cursos.html">Cursos</a>
-        <a class="menu-lateral__link menu-lateral__link--agendar " href="contato.html">Agendar Corte</a>
-    </nav>
+            <button class="cabecalho__menu"></button>
+            <!-- <h1 class="cabecalho__titulo">Barbearia do Império</h1> -->
+            <img src="Imagens/logo-barbearia.jpg" alt="Logotipo da HZC" class="cabecalho__logo">
+            <div></div>
+            <!-- A div esta segurando meu titulo no meio da página -->
+        
+        </header>
+        <nav class="menu-lateral">
+            <img class="menu-lateral__logo" src="Imagens/logo-barbearia.jpg"
+            alt="Logotipo da Barbearia">
+            <a class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo"
+            href="index.html">Home</a>
+            <a class="menu-lateral__link menu-lateral__link--servicos " href="serviços.html">Serviços</a>
+            <a class="menu-lateral__link menu-lateral__link--produtos " href="produtos.html">Produtos</a>
+            <a class="menu-lateral__link menu-lateral__link--cursos " href="cursos.html">Cursos</a>
+            <a class="menu-lateral__link menu-lateral__link--agendar " href="contato.html">Agendar Corte</a>
+        </nav>
+        <div>
+          <span>R$ 0</span>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+    </div>
 
     <section >
       <img class="imagem-destaque" src="Imagens/imagem-destaque.jpg" alt="imagem destaque da barbearia">
@@ -208,6 +213,8 @@
         <p class="endereco"> Codomínio Império dos Nobres - lt 001</p>
         <p class="copyright">&copy; Barbearia do Império - 2021</p>
     </footer>
+
+    
 
 </body>
 </html>

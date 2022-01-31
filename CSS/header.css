@@ -10,6 +10,12 @@ body {
     font-family: 'icones', var(--font-textos);
 }
 
+.container-topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
