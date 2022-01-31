@@ -16,6 +16,16 @@ body {
     align-items: center;
 }
 
+.cart-box {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.cart-box:hover {
+    color: rgb(14, 216, 31);
+    
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
