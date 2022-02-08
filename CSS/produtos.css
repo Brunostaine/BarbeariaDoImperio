@@ -78,16 +78,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
     transition: .6s;
-    width: 12rem;
+    width: 12rem;  
     
 }
 
-.produto-item--butao:hover {
-    background: rgb(3, 112, 58);
-    transform: scale(1.1);
-    color: white;
-    cursor: pointer;
-    
+.produto-item--butao:active {
+    background-color: transparent;
+    cursor: pointer;  
 }
 
 @media screen and (min-width: 655px) {
