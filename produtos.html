@@ -43,7 +43,7 @@
             <a class="menu-lateral__link menu-lateral__link--agendar " href="contato.html">Agendar Corte</a>
         </nav>
         <div class="cart-box">
-            <span>R$ 0</span>
+            <span id="qtdCart"> 0</span>
             <i class="fas fa-shopping-cart"></i>
         </div>
     </div>
@@ -53,120 +53,120 @@
             <h1 class="produtos-titulo">Nossa Loja</h1>
             <p class="produtos-texto">Temos produtos exclusivos que você só encontra aqui na nossa loja virtual.</p>
         <section class="produtos-container">
-            <div class="produto-item">
+            <div id="1" class="produto-item">
                  <img class="produto-item--imagem" src="Imagens/Produtos/alisante silver line.jpeg" alt="imagem do produto">
                  <p class="produto-item--descricao">Alisantte silver line</p>
                  <p class="produto-item--preco">R$ 49,99</p>
-                 <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                 <input onclick="comprar(1)" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
-            <div class="produto-item">
+            <div id="2" class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/balm-universo for man.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Balm universo for man</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar(2)" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
-            <div class="produto-item">
+            <div id="3" class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/easy.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Secador easy</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar(3)" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
-            <div class="produto-item">
+            <!-- <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/pomada-matte.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Pomada matte</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                <img class="produto-item--imagem" src="Imagens/Produtos/pomada-universo-for-man-efeito-black.jpeg" alt="imagem do produto">
                <p class="produto-item--descricao">Pomada universo for man efeito black</p>
                <p class="produto-item--preco">R$ 49,99</p>
-               <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+               <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                <img class="produto-item--imagem" src="Imagens/Produtos/pomada-universo-for-man-efeito-incolor.jpeg" alt="imagem do produto">
                <p class="produto-item--descricao">Pomada universo for man efeito incolor</p>
                <p class="produto-item--preco">R$ 49,99</p>
-               <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+               <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/secador-fox-ion-s-2100w.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Secador fox ion 2100w</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/secador-taiff-black-ion-2000w.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Secador taiff black ion 2000w</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/secador-taiff-profissional-easy-1700w.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Secador taiff profissional easy 1700w</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/secador-taiff-style-2000w.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Secador taiff style 2000w</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/spray extra forte charming.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Spray extra forte charming</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/vintage-t9.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Vintage t9</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/carregador.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Carregador de bateria</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/secador1.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Secador</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/secador2.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Secador</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/secador3.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Secador</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/secador4.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Secador</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/Gel cola 300g.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Gel cola 300g</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
             </div>
             <div class="produto-item">
                 <img class="produto-item--imagem" src="Imagens/Produtos/Loção Pós Barba Universo For Man 250ml.jpeg" alt="imagem do produto">
                 <p class="produto-item--descricao">Loção Pós Barba Universo For Man 250ml</p>
                 <p class="produto-item--preco">R$ 49,99</p>
-                <input class="produto-item--butao" type="button" value="Adicionar ao carrinho">
-            </div>
+                <input onclick="comprar()" class="produto-item--butao" type="button" value="Adicionar ao carrinho">
+            </div> -->
 
         </section>    
         </section>
