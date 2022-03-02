@@ -6,3 +6,8 @@
 //   butao = ""
 // }
 
+function comprar() {
+    document.getElementsByClassName('produto-item--butao')
+    console.log(comprar)
+}
+
