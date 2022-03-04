@@ -6,8 +6,10 @@
 //   butao = ""
 // }
 
-function comprar() {
-    document.getElementsByClassName('produto-item--butao')
-    console.log(comprar)
+let clicar = document.getElementsByClassName('produto-item--butao')
+
+function comprar() {  
+
+    console.log('cliquei')
 }
 
